@@ -34,15 +34,15 @@ def get_google_price(product_name):
     except:
         return None
 
-# ✅ Run price scraping with delays
+#  Run price scraping with delays
 def get_price_with_delay(row):
     time.sleep(random.uniform(5, 15))  # Random delay to avoid detection
     return get_amazon_price(row["item"]) or get_google_price(row["item"]) or max(row["sale price"] - 30, 0)
 
-# ✅ Enable progress tracking
+#  Enable progress tracking
 tqdm.pandas(desc="Fetching Competitor Prices")
 df["competitor price"] = df.progress_apply(get_price_with_delay, axis=1)
 
-# ✅ Save updated dataset
+# Save updated dataset
 df.to_csv(CLEANED_FILE, index=False)
 print(f"✅ Competitor prices added and saved as '{CLEANED_FILE}'")
