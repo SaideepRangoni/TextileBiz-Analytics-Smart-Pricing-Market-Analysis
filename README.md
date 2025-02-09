@@ -54,53 +54,12 @@ TextileBiz-Analytics-Smart-Pricing-Market-Analysis/
 │   ├── Textile_Pricing_Dashboard.pbix  # Power BI Dashboard file
 │── README.md  # Project documentation
 │── requirements.txt  # Python dependencies
-```bash
+
 
 ---
 
 
-## 📊 Power BI Dashboard  
-📌 The **Textile_Pricing_Dashboard.pbix** file in the `dashboards/` folder provides:  
-✔ **Market Trends** | ✔ **Price Competitiveness** | ✔ **Optimized Pricing Insights**  
 
-To use:  
-- Open **Power BI Desktop**.  
-- Load `dashboards/Textile_Pricing_Dashboard.pbix`.  
-- Analyze **pricing trends, competitor insights, and ML-based pricing predictions**.  
 
----
 
-## ⚙️ Configuration  
-The `config/config.yaml` file stores key parameters, including:  
-🔹 Pricing adjustment rules  
-🔹 Web scraping settings  
-🔹 Machine learning hyperparameters  
 
-Modify this file to **customize your pricing strategy**.
-
----
-
-## 🛠️ Technologies Used  
-- **Data Processing:** Pandas, NumPy  
-- **Web Scraping:** BeautifulSoup, Requests, Fake-UserAgent  
-- **Machine Learning:** Scikit-Learn (Linear Regression)  
-- **Visualization:** Power BI  
-- **Development Tools:** Python, Jupyter Notebook  
-
----
-
-## 📝 Testing & Validation  
-- **Data Quality Checks** – Ensures clean and structured data.  
-- **Model Evaluation** – Validates accuracy of pricing predictions.  
-- **Competitor Benchmarking** – Verifies scraped data against actual market prices.  
-
----
-
-## 📬 Contact & Support  
-**Developed by:** Saideep Rangoni
-- **Email:** saideeprangoni634@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/saideep-rangoni-54abb9300/)
-
----
-
-## 🚀 Transform Your Textile Business with Smart Pricing Strategies!  
