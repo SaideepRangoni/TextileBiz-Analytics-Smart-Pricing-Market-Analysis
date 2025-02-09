@@ -32,26 +32,28 @@
 
 ## 📂 Folder Structure  
 
-TextileBiz-Analytics-Smart-Pricing-Market-Analysis/│── data/
-│ ├── Textile_data2.txt.csv # Original raw dataset
-│ ├── Enhanced_Textile_Dataset.csv # Cleaned dataset
-│ ├── Pricing_Analysis_Report.csv # Pricing classification results
-│ ├── Optimized_Pricing_Dataset.csv # Adjusted pricing after rules
-│ ├── Final_ML_Pricing_Dataset.csv # ML-predicted optimal prices
+```bash
+TextileBiz-Analytics-Smart-Pricing-Market-Analysis/
+│── data/
+│   ├── Textile_data2.txt.csv  # Original raw dataset
+│   ├── Enhanced_Textile_Dataset.csv  # Cleaned dataset
+│   ├── Pricing_Analysis_Report.csv  # Pricing classification results
+│   ├── Optimized_Pricing_Dataset.csv  # Adjusted pricing after rules
+│   ├── Final_ML_Pricing_Dataset.csv  # ML-predicted optimal prices
 │── models/
-│ ├── trained_model.pkl # Trained Machine Learning model
+│   ├── trained_model.pkl  # Trained Machine Learning model
 │── scripts/
-│ ├── cleaning_dataset.py # Data cleaning & preprocessing
-│ ├── price_scraper.py # Web scraping (Amazon & Google)
-│ ├── price_analysis.py # Competitive pricing classification
-│ ├── optimize_price.py # Dynamic pricing strategy implementation
-│ ├── train_model.py # Machine Learning model training
+│   ├── cleaning_dataset.py  # Data cleaning & preprocessing
+│   ├── price_scraper.py  # Web scraping (Amazon & Google)
+│   ├── price_analysis.py  # Competitive pricing classification
+│   ├── optimize_price.py  # Dynamic pricing strategy implementation
+│   ├── train_model.py  # Machine Learning model training
 │── notebooks/
-│ ├── TextileBiz_Analytics_Analysis.ipynb # Jupyter Notebook with full pipeline
+│   ├── TextileBiz_Analytics_Analysis.ipynb  # Jupyter Notebook with full pipeline
 │── dashboards/
-│ ├── Textile_Pricing_Dashboard.pbix # Power BI Dashboard file
-│── README.md # Project documentation
-│── requirements.txt # Python dependencies
+│   ├── Textile_Pricing_Dashboard.pbix  # Power BI Dashboard file
+│── README.md  # Project documentation
+│── requirements.txt  # Python dependencies
 
 
 ---
