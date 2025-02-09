@@ -95,10 +95,9 @@ Modify this file to **customize your pricing strategy**.
 ---
 
 ## 📬 Contact & Support  
-**Developed by:** [Your Name]  
-📧 Email: your.email@example.com  
-🌐 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)  
-📢 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
+**Developed by:** [Saideep Rangoni] 
+- **Email:** saideeprangoni634@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/saideep-rangoni-54abb9300/)
 
 ---
 
