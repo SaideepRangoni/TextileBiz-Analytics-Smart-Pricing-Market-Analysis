@@ -51,6 +51,10 @@ TextileBiz-Analytics-Smart-Pricing-Market-Analysis/
 │── notebooks/
 │   ├── TextileBiz_Analytics_Analysis.ipynb  # Jupyter Notebook with full pipeline
 │── dashboards/
+│   ├── screenshots/
+│       ├── dashboard1.png  # dashboard view
+│       ├── dashboard2.png  # dashboard view
+│       ├── dashboard3.png  # dashboard view
 │   ├── Textile_Pricing_Dashboard.pbix  # Power BI Dashboard file
 │── README.md  # Project documentation
 │── requirements.txt  # Python dependencies
