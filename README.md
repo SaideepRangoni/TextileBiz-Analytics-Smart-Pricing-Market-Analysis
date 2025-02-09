@@ -32,8 +32,7 @@
 
 ## 📂 Folder Structure  
 
-TextileBiz-Analytics-Smart-Pricing-Market-Analysis/
-│── data/
+TextileBiz-Analytics-Smart-Pricing-Market-Analysis/│── data/
 │ ├── Textile_data2.txt.csv # Original raw dataset
 │ ├── Enhanced_Textile_Dataset.csv # Cleaned dataset
 │ ├── Pricing_Analysis_Report.csv # Pricing classification results
