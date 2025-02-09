@@ -54,9 +54,10 @@ TextileBiz-Analytics-Smart-Pricing-Market-Analysis/
 │   ├── Textile_Pricing_Dashboard.pbix  # Power BI Dashboard file
 │── README.md  # Project documentation
 │── requirements.txt  # Python dependencies
-
+```bash
 
 ---
+
 
 ## 📊 Power BI Dashboard  
 📌 The **Textile_Pricing_Dashboard.pbix** file in the `dashboards/` folder provides:  
