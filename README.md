@@ -103,7 +103,7 @@ Modify this file to **customize your pricing strategy**.
 ## 📬 Contact & Support  
 **Developed by:** Saideep Rangoni
 - **Email:** saideeprangoni634@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/saideep-rangoni-54abb9300/)
+- **LinkedIn:** [My Profile](https://www.linkedin.com/in/saideep-rangoni-54abb9300/)
 
 ---
 
