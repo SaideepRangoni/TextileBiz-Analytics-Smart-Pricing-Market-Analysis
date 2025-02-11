@@ -56,6 +56,8 @@ TextileBiz-Analytics-Smart-Pricing-Market-Analysis/
 │       ├── dashboard2.png  # dashboard view
 │       ├── dashboard3.png  # dashboard view
 │   ├── Textile_Pricing_Dashboard.pbix  # Power BI Dashboard file
+|── web/
+|   ├── index.html #to access the Power BI Dashboard with a click
 │── README.md  # Project documentation
 │── requirements.txt  # Python dependencies
 
