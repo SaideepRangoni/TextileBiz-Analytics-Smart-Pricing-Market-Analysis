@@ -24,9 +24,10 @@
 - Trains a **Linear Regression Model** to predict optimized prices.  
 - Factors in **cost price, competitor price, seasonality, and location**.  
 
-### 🔹 **Power BI Dashboard for Insights**  
+### 🔹 **Published Power BI Dashboard for Insights**  
 - Provides interactive **visual analytics** for pricing trends.  
 - Showcases **competitor benchmarking** and **optimal price recommendations**.  
+- Access the published dashboard [here](https://app.powerbi.com/groups/me/reports/2463b25e-78d9-4a68-b252-e803860fe98c?ctid=b45e253c-d9f0-4c81-b778-8d3197741240&pbi_source=linkShare).  
 
 ---
 
@@ -56,14 +57,13 @@ TextileBiz-Analytics-Smart-Pricing-Market-Analysis/
 │       ├── dashboard2.png  # dashboard view
 │       ├── dashboard3.png  # dashboard view
 │   ├── Textile_Pricing_Dashboard.pbix  # Power BI Dashboard file
-│── web/
-│   ├── index.html #to access the Power BI Dashboard with a click
+│── templates/
+│   ├── dashboard.html  # Frontend to access the published Power BI dashboard
+│── app.py  # Flask application to serve dashboard
 │── README.md  # Project documentation
 │── requirements.txt  # Python dependencies
-
 ```
 ---
-
 
 ## 📊 Power BI Dashboard  
 📌 The **Textile_Pricing_Dashboard.pbix** file in the `dashboards/` folder provides:  
@@ -73,6 +73,8 @@ To use:
 - Open **Power BI Desktop**.  
 - Load `dashboards/Textile_Pricing_Dashboard.pbix`.  
 - Analyze **pricing trends, competitor insights, and ML-based pricing predictions**.  
+
+Alternatively, access the published version directly from the web [here](https://app.powerbi.com/groups/me/reports/2463b25e-78d9-4a68-b252-e803860fe98c?ctid=b45e253c-d9f0-4c81-b778-8d3197741240&pbi_source=linkShare).  
 
 ---
 
@@ -87,6 +89,7 @@ Modify this file to **customize your pricing strategy**.
 ---
 
 ## 🛠️ Technologies Used  
+- **Backend:** Flask  
 - **Data Processing:** Pandas, NumPy  
 - **Web Scraping:** BeautifulSoup, Requests, Fake-UserAgent  
 - **Machine Learning:** Scikit-Learn (Linear Regression)  
@@ -102,14 +105,33 @@ Modify this file to **customize your pricing strategy**.
 
 ---
 
+## 📝 Running the Flask Application  
+
+### 🔧 Installation & Setup  
+
+1️⃣ Install dependencies:  
+```bash
+pip install -r requirements.txt
+```
+
+2️⃣ Run the Flask app:  
+```bash
+python app.py
+```
+
+3️⃣ Open the browser and go to:  
+```
+http://127.0.0.1:5000/
+```
+This will render the **dashboard.html** template with a button linking to the **published Power BI dashboard**.  
+
+---
+
 ## 📬 Contact & Support  
-**Developed by:** Saideep Rangoni
-- **Email:** saideeprangoni634@gmail.com
-- **LinkedIn:** [My Profile](https://www.linkedin.com/in/saideep-rangoni-54abb9300/)
+**Developed by:** Saideep Rangoni  
+- **Email:** saideeprangoni634@gmail.com  
+- **LinkedIn:** [My Profile](https://www.linkedin.com/in/saideep-rangoni-54abb9300/)  
 
 ---
 
 ## 🚀 Transform Your Textile Business with Smart Pricing Strategies!  
-
-
-
