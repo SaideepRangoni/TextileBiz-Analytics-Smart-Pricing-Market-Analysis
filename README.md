@@ -75,6 +75,7 @@ To use:
 - Analyze **pricing trends, competitor insights, and ML-based pricing predictions**.  
 
 Alternatively, access the published version directly from the web [here](https://app.powerbi.com/groups/me/reports/2463b25e-78d9-4a68-b252-e803860fe98c?ctid=b45e253c-d9f0-4c81-b778-8d3197741240&pbi_source=linkShare).  
+Note: you have to login through your organisation domain to access through web
 
 ---
 
